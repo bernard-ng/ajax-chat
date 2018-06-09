@@ -1,0 +1,14 @@
+{
+    "name": "bernard-ng/simple-chat",
+    "description": "simple application qui permet de chater",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bernard-ng",
+            "email": "ngandubernard@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

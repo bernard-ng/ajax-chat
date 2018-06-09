@@ -1,0 +1,289 @@
+@import "icons.css";
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background: #1c1b1b;
+    color: #ccc;
+}
+
+.default-bg{
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background: #383B3F url("../../images/banner-1.jpg") no-repeat fixed center;
+    background-blend-mode: overlay;
+    color: #ccc;
+    overflow-x: hidden !important;
+    text-align: center;
+}
+
+
+.leading-bg {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    background: url("../../imgs/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ccc;
+    overflow-x: hidden !important;
+    text-align: center;
+}
+
+.leading-bg:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 10;
+}
+
+.hero-titles {
+   width: 100%;
+   min-height: 300px;
+   padding: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translateX(-50%) translateY(-50%);
+       -ms-transform: translateX(-50%) translateY(-50%);
+           transform: translateX(-50%) translateY(-50%);
+   background: rgba(255,255,255,0.1);
+   border-radius: 3px;
+   -webkit-box-shadow: 0 0 20px #000;
+           box-shadow: 0 0 20px #000;
+   border: 2px outset transparent;
+}
+
+.hero-titles-no-animated {
+    padding: 20px;
+    margin-top: 15%;
+    background: rgba(255,255,255,0.1);
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 20px #000;
+            box-shadow: 0 0 20px #000;
+    border: 2px outset transparent;
+}
+
+
+.hero-titles a{
+    color: #fff !important;
+}
+
+.hero-title-sub {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 100;
+    padding-bottom: -15px !important;
+    position: relative;
+    margin-top: -5px;
+    margin-bottom: -10px;
+}
+
+.hero-title-main {
+    text-transform: capitalize;
+    font-size: 48px;
+    line-height: 40px;
+    font-weight: 700 !important;
+    padding-top: -15px !important;
+    text-shadow: 1px 1px 1px #272626;
+}
+
+.hero-title-main-2 {
+    text-transform: uppercase !important;
+    text-shadow: 1px 1px 1px #272626;
+    font-size: 1.25em;
+    line-height: 40px;
+    font-weight: 700 !important;
+    padding-top: -15px !important;
+    text-align: left !important;
+    margin-bottom: 10px !important;
+}
+
+.hero-title-main:first-letter {
+    color: #428bca !important;
+    font-weight: 700 !important;
+}
+
+.second{
+    display: block;
+}
+.second:first-letter {
+    color: #428bca;
+    font-weight: 700 !important;
+}
+
+
+.leading-footer {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    padding-top: 15px;
+    color: #ccc;
+    position: relative;
+    z-index: 11;
+}
+
+.leading-footer-slide {
+    background: #3a72ae;
+    width: 100%;
+    height: 25px;
+    position: fixed;
+    bottom: 0; right: 10px; left: 300px;
+    float: right;
+    font-size: small;
+    color: #ccc;
+    padding-top: 3px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+
+.leading-header {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    color: #ccc !important;
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.leading-header div.center {
+    font-family: motion !important;
+    font-weight: 100;
+    font-size: 3.75em;
+    text-transform: lowercase;
+}
+
+.leading-header div.center div.second::first-letter,div.center::first-letter {
+    color: #428bca !important;
+}
+
+.leading-header div.center div.second {
+    display: inline !important;
+}
+
+
+.leading-header a {
+    color: #ccc;
+}
+
+
+#loginBox, #signUpBox{
+
+    background-color:rgba(255, 255, 255, 0.07);
+    border-top: 2px inset #428bca;
+    border-radius:3px;
+    padding:25px !important;
+    color:#fff;
+    position: relative;
+    z-index: 11;
+}
+
+#loginBox a.forgot,
+#signUpBox a.forgot {
+    color:#cecece;
+    float:right !important
+}
+
+#loginBox a.forgot:hover,#signUpBox a.forgot:hover{
+    text-decoration:underline
+}
+
+#loginBox label,#signUpBox label{
+    color:#cecece
+}
+
+#loginBox input,#signUpBox input{
+    color:#fff !important;
+    padding-left: 10px;
+    background-color: rgba(255,255,255,.1);
+    -webkit-box-shadow: inset 1px 1px 5px #000;
+            box-shadow: inset 1px 1px 5px #000;
+}
+
+
+/*****************************************************************************
+    les boutons
+********************************************************************************/
+
+.submit-btn-full {
+    border-radius: 3px;
+    padding: 20px;
+    height: 35px !important;
+    background: #3a72ae !important;
+    color: #ccc;
+    border: none;
+    font-weight: 100;
+    font-family: openSans, sans-serif;
+
+}
+
+.qrcode-btn{
+    border-radius: 3px;
+    padding: 20px;
+    height: 45px !important;
+    line-height: 45px;
+    background: rgba(255,255,255,0.1) !important;
+    color: #ccc;
+    border: none;
+    font-weight: 100;
+}
+
+
+.calendar__table {
+    width: 100%;
+    height: calc(100vh - 170px) !important;
+}
+
+.calendar__table td {
+    padding: 10px;
+    border: 1px solid rgba(204, 204, 204, 0.316);
+    vertical-align: top;
+    width: 14.29%;
+    height: 20%;
+}
+
+.calendar__table--6weeks td {
+    height: 16.66%;
+}
+
+
+.calendar__weekday {
+    font-weight: bold;
+    color: #428BCA;
+    text-transform: uppercase;
+}
+
+.calendar__day {
+    font-size: 1.3em;
+}
+
+.calendar__event {
+    font-size: small;
+}
+
+.calendar__othermonth .calendar__day {
+    font-weight: 100;
+    color: rgba(204, 204, 204, 0.385);
+}
