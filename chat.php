@@ -17,7 +17,7 @@
         <div class="navbar-fixed teal darken-3">
             <nav class="teal darken-3">
             <div class="nav-wrapper container teal darken-3">
-                <a href="" class="brand-logo">Comments</a>
+                <a href="" class="brand-logo">JC Chats</a>
                 <a href="#end"  class="button-collapse right">
                     <i class="icon icon icon-chevron-down"></i>
                 </a>
