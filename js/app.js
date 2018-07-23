@@ -3,7 +3,7 @@
  * @author Tshabu Ngandu Bernard
  * @copyright http://ngpictures.pe.hu
  * @version 1.0
- * @see https://github/bernard-ng/chat-ajax
+ * @see https://github/bernard-ng/ajax-chat
  *
  */
 document.addEventListener('DOMContentLoaded', function(){
@@ -221,5 +221,5 @@ document.addEventListener('DOMContentLoaded', function(){
     chat.init();
     let timer = window.setInterval(() => {
         chat.refresh();
-    }, 6000)
+    }, 1000)
 });
